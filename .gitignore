@@ -1,0 +1,5 @@
+log/
+mysql/
+cache/
+backup/
+.DS_Store
