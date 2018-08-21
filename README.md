@@ -2,10 +2,10 @@
 Docker LEMP Project for WordPress
 
 ## ให้สิทธิ์การใช้งาน docker เกี่ยวกับการเขียนข้อมูล
-git clone https://github.com/PanupongDeve/docker-nginx-wordpress.git
-cd docker-nginx-wordpress
-find www -type d -exec chmod 755 {} \;
-find www -type f -exec chmod 755 {} \;
+`git clone https://github.com/PanupongDeve/docker-nginx-wordpress.git`
+`cd docker-nginx-wordpress`
+`find www -type d -exec chmod 755 {} \;`
+`find www -type f -exec chmod 755 {} \;`
 
 ### runserv
 docker-compose up -d
