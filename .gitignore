@@ -3,3 +3,4 @@ mysql/
 cache/
 backup/
 .DS_Store
+.env
