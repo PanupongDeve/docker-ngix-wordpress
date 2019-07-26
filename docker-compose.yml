@@ -12,9 +12,10 @@ services:
       - ./log/nginx:/var/log/nginx
       - ./cache/nginx:/var/cache/nginx
       - ./www:/usr/share/nginx/html
+
   phpfpm:
     restart: always
-    image: teampat/php-fpm
+    image: bitnami/php-fpm
     links:
       - mysql:mysql
     volumes:
